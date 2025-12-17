@@ -2,6 +2,9 @@
 
 Coleção de ferramentas para configurar equipamentos de fibra ótica (XPON/GPON) da Vivo (Brasil), permitindo a substituição do roteador da operadora por equipamentos próprios (como sticks ONU SFP).
 
+![imagem](imagem.jpg)
+[Adquira aqui teu XPON (ODI DFP-34X)](https://s.click.aliexpress.com/e/_c4pBS2Qd)
+
 ## Ferramentas
 
 ### 1. 📡 [Vivo Scraper](./vivo_scraper)
