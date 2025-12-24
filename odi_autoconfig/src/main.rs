@@ -637,10 +637,10 @@ fn extract_settings(html: &str) -> GponSettings {
 }
 
 fn find_vivo_slid() -> Option<String> {
-    // Look for json files in current dir, ../vivo_scraper/, and executable dir
+    // Look for json files in current dir, ../mitrastar_scraper/, and executable dir
     let mut search_paths = vec![
-        std::path::PathBuf::from("./"),
-        std::path::PathBuf::from("../vivo_scraper/"),
+        std::path::PathBuf::from("."),
+        std::path::PathBuf::from("../mitrastar_scraper/"),
     ];
 
     if let Ok(exe_path) = std::env::current_exe() {

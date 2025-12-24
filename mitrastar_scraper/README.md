@@ -26,7 +26,7 @@ Ferramenta desenvolvida em Rust projetada para autenticar e extrair informaçõe
 2. **Extrair**: Extraia o arquivo ZIP.
 3. **Executar**: Abra o terminal na pasta onde extraiu o arquivo e execute:
    ```powershell
-   .\vivo_scraper.exe
+   .\mitrastar_scraper.exe
    ```
 
 ### Opção 2: Compilando do Código Fonte

@@ -1,13 +1,13 @@
 # DeVIVO
 
-Coleção de ferramentas para configurar equipamentos de fibra ótica (XPON/GPON) da Vivo (Brasil), permitindo a substituição do roteador da operadora por equipamentos próprios (como sticks ONU SFP).
+Coleção de ferramentas para configurar equipamentos de fibra ótica (XPON/GPON), permitindo a substituição do roteador da operadora por equipamentos próprios (como sticks ONU SFP).
 
 ![imagem](imagem.jpg)
-[Adquira aqui teu XPON (ODI DFP-34X)](https://s.click.aliexpress.com/e/_c4pBS2Qd)
+[Adquira aqui teu XPON (ODI DFP-34X)](https://s.click.aliexpress.com/e/_c4pBS2Qd) | [Mediaconverter](https://s.click.aliexpress.com/e/_c3GeNieD) [[2](https://s.click.aliexpress.com/e/_c41mtwB7)] [[3](https://s.click.aliexpress.com/e/_c43qvRxR)] [[4](https://s.click.aliexpress.com/e/_c4UMBRRJ)] [[5](https://s.click.aliexpress.com/e/_c3OewGul)]
 
 ## Ferramentas
 
-### 1. 📡 [Vivo Scraper](./vivo_scraper)
+### 1. 📡 [Mitrastar Scraper](./mitrastar_scraper)
 
 Uma ferramenta de extração de dados do roteador original da Vivo (Mitrastar).
 
@@ -27,7 +27,7 @@ Automatizador para sticks ONU da série **ODI DFP-34X** (e compatíveis Realtek)
 
 ## Fluxo de Trabalho Recomendado
 
-1. **Extração**: Execute o `vivo_scraper` enquanto conectado ao roteador original da Vivo. Ele salvará um arquivo `.json` com todas as credenciais.
+1. **Extração**: Execute o `mitrastar_scraper` enquanto conectado ao roteador original da Vivo. Ele salvará um arquivo `.json` com todas as credenciais.
 2. **Substituição**: Troque o roteador pelo stick ODI (conectado via Media Converter ou slot SFP).
 3. **Configuração**: Execute o `odi_autoconfig`. Ele encontrará o arquivo JSON gerado anteriormente e aplicará as configurações no stick automaticamente.
 

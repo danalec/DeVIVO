@@ -23,7 +23,7 @@ Ela remove a necessidade de configuração manual, copiando automaticamente o SL
 
 1. **Preparação**:
    - Conecte seu computador à porta LAN do stick ODI (IP estático na faixa `192.168.1.x` pode ser necessário inicialmente se o DHCP não estiver ativo, mas o padrão do stick é 1.1).
-   - (Opcional) Coloque o arquivo `.json` gerado pelo `vivo_scraper` na mesma pasta do executável.
+   - (Opcional) Coloque o arquivo `.json` gerado pelo `mitrastar_scraper` na mesma pasta do executável.
 2. **Executar**:
    - Execute o `odi_autoconfig.exe`.
    - Insira o usuário e senha do stick quando solicitado (padrão geralmente é `admin` / `admin`).
